@@ -10,7 +10,7 @@ A collection of simple exercises to practice Ruby and TDD
 * `hobbit_test.rb` -->
 <!-- * `pirate_test.rb` -->
 <!-- * `wizard_test.rb` -->
-* `medusa_test.rb`
+<!-- * `medusa_test.rb` -->
 * `werewolf_test.rb`
 * `centaur_test.rb`
 
