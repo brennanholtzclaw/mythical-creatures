@@ -63,17 +63,29 @@ class WerewolfTest < Minitest::Test
   def test_is_not_hungry_by_default
     # skip
     werewolf = Werewolf.new("David","London")
-    
+    refute werewolf.hungry?
     # your code here
   end
 
   def test_becomes_hungry_after_changing_to_a_werewolf
-    skip
+    # skip
+    werewolf = Werewolf.new("David","London")
+    refute werewolf.hungry?
+    werewolf.change!
+    assert werewolf.hungry?
+    werewolf.change!
+    assert werewolf.hungry?
     # your code here
   end
 
   def test_remains_hungry_after_changing_back_to_a_human
-    skip
+    # skip
+    werewolf = Werewolf.new("David","London")
+    refute werewolf.hungry?
+    werewolf.change!
+    assert werewolf.hungry?
+    werewolf.change!
+    assert werewolf.hungry?
     # your code here
   end
 

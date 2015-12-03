@@ -17,6 +17,7 @@ class Werewolf
     if @human == true
       @human = false
       @werewolf = true
+      @hungry = true
     else
       @human = true
       @werewolf = false
@@ -28,6 +29,8 @@ class Werewolf
     @werewolf
   end
 
-
+  def hungry?
+    @hungry
+  end
 
 end
